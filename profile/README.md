@@ -15,10 +15,10 @@ Activation is bound to the device, and generation runs on the device.
 
 ## Models
 
-| Platform | Available now |
-| --- | --- |
-| NVIDIA (CUDA) | Qwen3.5 and Qwen3.6 language models (image and video input on 35B-A3B through the package launcher); Wan 2.1 and Wan 2.2 video; FLUX.1-dev and Stable Diffusion 3.5 images |
-| Apple Silicon (Metal) | Qwen language models ([veizik-metal](https://github.com/veizikhq/veizik-metal)) |
+| Platform | Available now | In preparation |
+| --- | --- | --- |
+| NVIDIA (CUDA) | Qwen3.5 and Qwen3.6 language models (image and video input on 35B-A3B through the package launcher); Wan 2.1 and Wan 2.2 video | FLUX.1-dev and Stable Diffusion 3.5 images (not in a download yet) |
+| Apple Silicon (Metal) | Qwen2.5 and Qwen3 language models ([veizik-metal](https://github.com/veizikhq/veizik-metal)) | |
 
 ## Requirements
 
@@ -52,7 +52,7 @@ The `veizik` command-line tool is fetched from the GitHub releases and installs 
 
 ```
 curl -fsSL https://veizik.com/install.sh | sh      # the veizik command (Linux x86-64 / aarch64, macOS arm64)
-veizik install qwen        # or: wan · sd35 · flux
+veizik install qwen        # or: wan
 veizik activate            # once per device
 ```
 
